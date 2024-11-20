@@ -1,12 +1,14 @@
-# Implementation-Analysis-of-D-flipflop-using-Cadence-EDA-Tools
-Ex No: 01     Implementation & Analysis of D-flipflop using Cadence EDA Tools   
+## Ex No: 03-Design-and-Implementation-of-D-Flip-Flop-using-Cadence-EDA-Tools
 
-Aim:
-To design and implement a D-flip-flop using Cadence EDA tools, simulate its behavior, and analyze key performance parameters such as timing, power consumption, and resource utilization for a comprehensive understanding of sequential logic circuits.
+### Aim:
+To design and implement a D flip-flop circuit using Cadence EDA tools, analyze its functionality and performance, and understand the principles of digital logic design, including schematic creation, layout design, and simulation.
 
-Tools Required:
-•	Personal Computer
-•	Cadence Virtuoso Software
+### Tools Required:
+  - Personal Computer
+  - Cadence Virtuoso Software
+
+### Circuit Diagram:
+![WhatsApp Image 2024-11-20 at 12 07 42_e6b3e9be](https://github.com/user-attachments/assets/3442f91f-270f-4a27-8376-e4705fe20029)
 
 S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
@@ -47,7 +49,8 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-![IMG-20241019-WA0012](https://github.com/user-attachments/assets/34ba817f-3261-4ea3-b4e2-6be450b2207d)
+![Screenshot (107)](https://github.com/user-attachments/assets/0a0f9ad6-f83d-4fc9-863b-ceeda225ca12)
+
 
 
 
@@ -66,7 +69,8 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
-![IMG-20241019-WA0009](https://github.com/user-attachments/assets/9bef70c1-ffa3-4680-ac29-d4c5e03d792e)
+![Screenshot (108)](https://github.com/user-attachments/assets/f9e257fa-e3ed-484a-9275-7fa6caafde7c)
+
 
 
 iv)	Creating the new test cell view
@@ -79,7 +83,7 @@ iv)	Creating the new test cell view
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
 
-![IMG-20241019-WA0011](https://github.com/user-attachments/assets/a6e192b4-bc9d-44a0-9007-ab48f2f1acc4)
+![Screenshot (109)](https://github.com/user-attachments/assets/2ed16c46-8a35-4e8c-bd80-c6355db99baf)
 
 
  
@@ -94,15 +98,15 @@ Analog simulation by SPECTRE.
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
  
-![IMG-20241019-WA0010](https://github.com/user-attachments/assets/e532f49e-b60f-4629-bb39-9f9b4085b36f)
+![Screenshot (111)](https://github.com/user-attachments/assets/478c9c52-c4e8-46d2-9d7e-0acdf20b2fd4)
 
 
 For Transient Analysis Settings and Output
  
- ![IMG-20241019-WA0013](https://github.com/user-attachments/assets/92433262-d11d-460f-899b-5c3d1e661266)
+![Screenshot (110)](https://github.com/user-attachments/assets/80a87d2a-880b-41a3-9480-9c0f944b8ed8)
 
- ![IMG-20241019-WA0014](https://github.com/user-attachments/assets/eef27219-4166-4c49-8662-ee7e0ddb6894)
 
+![Screenshot (115)](https://github.com/user-attachments/assets/0af44ca9-338e-46d1-9e0e-141935d8fcf8)
 
 Results:
 The design and implementation of the D-flip-flop using Cadence EDA tools were successfully completed. The simulated results confirmed the correct operation of the flip-flop, with proper synchronization of the input data with the clock signal. Key performance parameters such as propagation delay, power consumption, and area utilization were evaluated, aligning with expected theoretical values.
